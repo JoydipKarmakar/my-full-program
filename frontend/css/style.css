@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #c4302b; /* YouTube Red */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#download-area h2 {
+    color: #c4302b;
+    margin-top: 0;
+}
+
+#download-area input[type="text"] {
+    width: calc(100% - 22px); /* Adjust for padding and border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#download-area button {
+    display: block; /* Make button take full width */
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Green for download */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+#download-area button:hover {
+    background-color: #218838;
+}
+
+#statusArea {
+    margin-top: 25px;
+    padding: 15px;
+    border: 1px solid #c4302b;
+    background-color: #ffebeb; /* Light red */
+    border-radius: 4px;
+    min-height: 40px; /* Give it some space */
+    color: #c4302b;
+}
+
+#statusArea p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+    font-size: 0.9em;
+}
