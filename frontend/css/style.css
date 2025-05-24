@@ -56,8 +56,43 @@ main {
     background-color: #218838;
 }
 
+/* --- Progress Bar Styles --- */
+#progressBarContainer {
+    width: 100%;
+    height: 25px; /* Height of the bar */
+    background-color: #e0e0e0; /* Background of the empty bar */
+    border-radius: 5px;
+    margin-top: 20px; /* Space above the bar */
+    overflow: hidden; /* Hide anything outside the rounded corners */
+    border: 1px solid #ccc; /* Optional border */
+}
+
+#progressBarFill {
+    height: 100%;
+    width: 0%; /* Start empty */
+    background-color: #4CAF50; /* Green fill color */
+    border-radius: 5px;
+    transition: width 0.4s ease; /* Smooth animation when width changes */
+}
+
+#progressText {
+    display: block; /* Make it a block element */
+    text-align: center; /* Center the text */
+    margin-top: 5px; /* Space above the text */
+    color: #333;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/* Class to hide the progress bar area */
+.progress-hidden {
+    display: none;
+}
+/* --- End Progress Bar Styles --- */
+
+
 #statusArea {
-    margin-top: 25px;
+    margin-top: 25px; /* Adjust margin since progress bar is now above it */
     padding: 15px;
     border: 1px solid #c4302b;
     background-color: #ffebeb; /* Light red */

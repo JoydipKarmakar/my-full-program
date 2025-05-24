@@ -18,6 +18,13 @@
             <input type="text" id="playlistUrlInput" placeholder="Paste playlist URL here">
             <button id="downloadButton">Start Download</button>
 
+            <!-- Add the progress bar container -->
+            <div id="progressBarContainer" class="progress-hidden"> <!-- Initially hidden by CSS class -->
+                <div id="progressBarFill"></div>
+            </div>
+            <span id="progressText" class="progress-hidden">0%</span> <!-- Text below the bar -->
+
+
             <div id="statusArea">
                 <p>Download status will appear here...</p>
             </div>
